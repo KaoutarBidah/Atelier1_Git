@@ -3,6 +3,7 @@ package backend;
 import java.util.HashMap;
 
 public class Disque{
+	private int number = 3;
 	private String nomDisque = "C";
 	private HashMap<String, String> listUsers = new HashMap<String, String>();
 	private HashMap<String, String> listAdmins = new HashMap<String, String>();
